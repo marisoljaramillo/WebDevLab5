@@ -40,21 +40,21 @@ h3 {
 }
 
 /* default to phone */
-.gridwrapper {
+.gridwrap {
     display: grid;
     grid-template-columns:1fr;
 }
 
 /* tablet layout */
 @media (min-width: 600px){
-	.gridwrapper{
+	.gridwrap{
 		grid-template-columns: 1fr 1fr;
     }
 }
 
 /* desktop layout */
 @media (min-width: 992px){
-	.gridwrapper{
+	.gridwrap{
 		grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
